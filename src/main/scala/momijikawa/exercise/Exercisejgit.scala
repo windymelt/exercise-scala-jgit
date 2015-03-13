@@ -1,12 +1,11 @@
 package momijikawa.exercise
 
-import org.eclipse.jgit.lib._
+import java.io.File
 import org.eclipse.jgit.api._
 import org.eclipse.jgit.api.errors._
-import scala.collection.JavaConverters._
-import java.io.File
-
+import org.eclipse.jgit.lib._
 import org.eclipse.jgit.merge.MergeStrategy
+import scala.collection.JavaConverters._
 
 object Exercisejgit extends App {
   /*
